@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    font-size: 62.40%;
+}
+
+nav {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 1rem;
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+nav h1 {
+    font-weight: bold;
+    letter-spacing: 1.5;
+    font-size: 2.5rem;
+}
+
+nav img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    
+}
+
+.container {
+    padding: 1rem 1.5rem 3rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 2px solid #2E334D;
+    flex-wrap: nowrap;
+}
+
+.content .imgdiv {
+    flex-basis: 50%;
+}
+
+.content .info {
+    flex-basis: 50%;
+}
+
+.imgdiv img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.75);
+    object-fit: contain;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 1;
+    font-weight: bold;
+    background: rgb(251, 164, 9);
+    background: linear-gradient(315deg, rgba(251, 164, 9, 1) 23%, rgba(252, 75, 0, 1) 93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem 0;
+}
+
+.info a {
+    color: #ffffff;
+    display: block;
+    width: 90%;
+    background-color: #2E334D;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: .5rem;
+    font-size: 2rem;
+    transition: .3s linear;
+}
+
+h3{
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem;
+    color: #2E334D;
+}
+
+.videodiv{
+    padding: 1rem;
+}
+
+.video{
+    border-radius: 1rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer a{
+    font-size: 2rem;
+    text-decoration: none;
+}

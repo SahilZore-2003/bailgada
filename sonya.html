@@ -1,0 +1,132 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonya</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .mySwiper {
+            height: 40vh;
+        }
+
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .swiper-slide img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            aspect-ratio: 3/2;
+            border-radius: 15px;
+           
+        }
+
+        #customers {
+            
+            border-collapse: collapse;
+            width: 100%;
+            margin: 1rem 0;
+            font-weight: bold;
+            font-size: 1.5rem;
+            background-color: black;
+            color: #ddd;
+            border-radius: 10px;
+        }
+
+        #customers td {
+            border: 2px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        #customers tr:nth-child(even) {
+            /* background-color: #f2f2f2; */
+        }
+
+        .video{
+            padding: 1rem;
+            border-radius: 15px;
+        }
+        iframe{
+            border-radius: 15px;
+        }
+    </style>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/sonya1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/sonya2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/sonya3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/sonya4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/sonya5.jpg" alt="">
+            </div>
+            
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+    <table id="customers">
+        <tr>
+            <td>नाव</td>
+            <td>सोन्या</td>
+        </tr>
+        <tr>
+            <td>मालक</td>
+            <td>जयेश पाटील</td>
+        </tr>
+       
+        <tr>
+            <td>ठिकण</td>
+            <td>सोनारपाडा</td>
+        </tr>
+        <tr>
+            <td>क्रमांक</td>
+            <td>५०५०</td>
+        </tr>
+    </table>
+
+    <iframe class="video" width="100%" height="300" src="https://www.youtube.com/embed/4W6Vd6qky9o" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
