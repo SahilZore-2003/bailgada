@@ -45,6 +45,12 @@ const data = [
         img: "bharat.png",
         address: "bharat"
     },
+    {
+        name: "मिल्खा",
+        img: "milkha.png",
+        address: "milkha"
+    }
+    
     
 ]
 
