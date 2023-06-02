@@ -52,7 +52,7 @@ const data = [
     },
     {
         name: "चिक्या",
-        img: "chikya.png",
+        img: "chikya.jpg",
         address: "chikya"
     }
     
