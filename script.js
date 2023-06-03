@@ -57,8 +57,13 @@ const data = [
     },
     {
         name: "रायफल",
-        img: "rayfal1.jpg",
+        img: "rayfal.jpg",
         address: "rayfal"
+    },
+    {
+        name: "रोमण",
+        img: "roman.jpg",
+        address: "roman"
     },
     {
         name: "बादल",
