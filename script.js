@@ -54,12 +54,21 @@ const data = [
         name: "चिक्या",
         img: "chikya.jpg",
         address: "chikya"
+    },
+    {
+        name: "रायफल",
+        img: "rayfal1.jpg",
+        address: "rayfal"
+    },
+    {
+        name: "बादल",
+        img: "badal1.jpg",
+        address: "badal"
     }
     
     
 ]
 
-// कर्जतच्या मैदानावर रौंदळ माजवणारा चिक्या बैल | Chikya Bail | Bailgada Sharyat | VIshaych Bhari
 
 
 
